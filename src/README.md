@@ -8,7 +8,6 @@ tags:
 # Component: `glue-schema`
 
 This component provisions Glue schemas.
-
 ## Usage
 
 **Stack Level**: Regional
@@ -29,7 +28,10 @@ components:
 ```
 
 <!-- prettier-ignore-start -->
-<!-- BEGINNING OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
+<!-- prettier-ignore-end -->
+
+
+<!-- markdownlint-disable -->
 ## Requirements
 
 | Name | Version |
@@ -96,12 +98,17 @@ No resources.
 | <a name="output_schema_checkpoint"></a> [schema\_checkpoint](#output\_schema\_checkpoint) | The version number of the checkpoint (the last time the compatibility mode was changed) |
 | <a name="output_schema_id"></a> [schema\_id](#output\_schema\_id) | Glue schema ID |
 | <a name="output_schema_name"></a> [schema\_name](#output\_schema\_name) | Glue schema name |
-<!-- END OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
-<!-- prettier-ignore-end -->
+<!-- markdownlint-restore -->
+
+
 
 ## References
 
-- [cloudposse/terraform-aws-components](https://github.com/cloudposse/terraform-aws-components/tree/main/modules/glue/schema) -
-  Cloud Posse's upstream component
+
+- [cloudposse-terraform-components](https://github.com/orgs/cloudposse-terraform-components/repositories) - Cloud Posse's upstream component
+
+
+
 
 [<img src="https://cloudposse.com/logo-300x69.svg" height="32" align="right"/>](https://cpco.io/homepage?utm_source=github&utm_medium=readme&utm_campaign=cloudposse-terraform-components/aws-glue-schema&utm_content=)
+
