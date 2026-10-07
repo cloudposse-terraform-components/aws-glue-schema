@@ -1,6 +1,6 @@
 module "glue_registry" {
   source  = "cloudposse/stack-config/yaml//modules/remote-state"
-  version = "1.8.0"
+  version = "1.8.1"
 
   component = var.glue_registry_component_name
 
